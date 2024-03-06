@@ -37,8 +37,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'app',
     'task1',
+    'task2',
+    'task3',
     'django_celery_beat',
 ]
 
@@ -134,10 +135,10 @@ EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 DEFAULT_FROM_EMAIL = 'nhathong1204@gmail.com'
 
-CELERY_BEAT_SCHEDULE = {
-    'scheduled_task': {
-        'task': 'task1.tasks.add',
-        'schedule': 5.0,
-        'args': (30,20)
-    }
-}
+# CELERY_BEAT_SCHEDULE = {
+#     'scheduled_task': {
+#         'task': 'task1.tasks.add',
+#         'schedule': 5.0,
+#         'args': (30,20)
+#     }
+# }
