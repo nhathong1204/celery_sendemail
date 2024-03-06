@@ -18,7 +18,7 @@ Command Reference
 # Run RabbitMQ (On Windows)
 
 Run:
-C:\Program Files\RabbitMQ Server\rabbitmq_server-3.8.6\sbin\rabbitmq-server.bat
+C:\Program Files\RabbitMQ Server\rabbitmq_server-3.13.0\sbin\rabbitmq-server.bat
 
 #Run First Task
     py manage.py shell
@@ -41,7 +41,7 @@ Working with Flower
 
 Windows Work Around
 #####
-C:\django\yt-django-celery-series-intro-install-run-task\venv\lib\site-packages\tornado\platform\asyncio.py
+D:\Django\celery_sendemail\env\lib\site-packages\tornado\platform\asyncio.py
 
 import sys
 
